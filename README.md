@@ -1,7 +1,8 @@
 # API Github Developers! 
 
 Este Projeto se encontra hospedado na Heroku e pode ser acessado nesta URL:
-##### https://github-dev-api.herokuapp.com/
+##### URL-BASE : https://github-dev-api.herokuapp.com/
+##### SWAGGER : https://github-dev-api.herokuapp.com/swagger-ui.html#
 
 ##### OBS : Utilize o login abaixo para pode criar o token e assim tiver acesso as API's:
 email : `jonatas0072@gmail.com`
@@ -86,5 +87,4 @@ Com isso voce deve ter o aplicativo rodando em sua maquina.
 * Push a sua branch: `git push origin my-feature`
 
 ### Licença
-Esse projeto está sob a licença [Apache 2.0](https://github.com/jonatas0072/github-api/blob/master/LICENSE). 
-
+Esse projeto está sob a licença [Apache 2.0](https://github.com/jonatas0072/github-api/blob/master/LICENSE).
