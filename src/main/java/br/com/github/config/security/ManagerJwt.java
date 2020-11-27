@@ -7,20 +7,11 @@ import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
 @Component
 public class ManagerJwt {
-
-//  public static void main(String[] args) {
-//    List<String> role = new ArrayList<>();
-//    role.add("ADMIN");
-//
-//    UserLoginDto usuarioLoginDto =  createToken("jonatasfernandoaraujomacedo@gmail.com",role);
-//    System.out.println(usuarioLoginDto.getToken());
-//  }
 
   public UserLoginDto createToken(String email, List<String> roles) {
     Calendar calendar = Calendar.getInstance();
