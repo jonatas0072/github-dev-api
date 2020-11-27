@@ -1,9 +1,9 @@
-#API Github Developers! 
+# API Github Developers! 
 
 Este Projeto se encontra hospedado na Heroku e pode ser acessado nesta URL:
 ##### https://github-dev-api.herokuapp.com/
 
-#####OBS : Utilize o login abaixo para pode criar o token e assim tiver acesso as API's:
+##### OBS : Utilize o login abaixo para pode criar o token e assim tiver acesso as API's:
 email : `jonatas0072@gmail.com`
 senha : `1234567890`
 role : `ADMIN` 
@@ -13,7 +13,7 @@ role : `ADMIN`
 #  Projeto
 > O projeto consite em consumir as API's do github e gerar um ranking dos mesmos.
 
-###Tecnologias
+### Tecnologias
 
 Este projeto foi desenvolvido utilizando as seguintes tecnologia:
 
@@ -34,14 +34,14 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologia:
 
 ## Requisitos para Compilação
 
-##Step 1
+## Step 1
 
 Faça o Download do projeto:
 ````
 git clone https://github.com/jonatas0072/github-api.git
 ````
 
-##Step 2
+## Step 2
 
 Para o compilar e tesar o projeto é necessário instalar as seguintes tecnologias:
 
@@ -50,7 +50,7 @@ Java 8 - Caso você não tenha o Java 8 instalado bastar fazer o download por es
 Postgres - Caso você não tenha o Postgres instalado basta fazer o download por este link (Linux e WIndows): [Download Postgres](https://www.postgresql.org/download/)
 
 OBS : apos a instalação do postgres sera necessario criar o database com o nome de `github`
-##Instalação do Postgres via Docker (Recomendado)
+## Instalação do Postgres via Docker (Recomendado)
 
 Se assim como eu você prefere usar o Docker para a instalação do banco de dados segue os comandos para instalação via Docker:
 Não tem o Docker instalado? Faça o Download por este link: [Download Docker](https://www.docker.com/products/docker-desktop)
@@ -63,7 +63,7 @@ Com esse comando criamos um contêiner com a conexão com o banco de dados Postg
 ````
 docker run --name some-postgres -e POSTGRES_PASSWORD=postgres -d postgres
 ````
-##Step 3 - Optional
+## Step 3 - Optional
 Este projeto foi configurado para ser virtualizado no docker.
 
 Empacote o projeto com o seguinte comando. Para este empacotamento não tem necessidade de rodar os testes como mostrado abaixo:
@@ -79,12 +79,12 @@ Após isto voce ira ter criado uma imagem do projeto, com isso é so criar um co
 
 Com isso voce deve ter o aplicativo rodando em sua maquina.
 
-###Como contribuir?
+### Como contribuir?
 * Fork o repositório
 * Crie uma branch: `git checkout -b my-feature`
 * Commit suas mudanças: `git commit -m 'feat: My new feature`
 * Push a sua branch: `git push origin my-feature`
 
-###Licença
+### Licença
 Esse projeto está sob a licença [Apache 2.0](https://github.com/jonatas0072/github-api/blob/master/LICENSE). 
 
