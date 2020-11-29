@@ -2,7 +2,6 @@
 
 Este Projeto se encontra hospedado na Heroku e pode ser acessado nesta URL:
 ##### URL-BASE : https://github-dev-api.herokuapp.com/
-##### SWAGGER : https://github-dev-api.herokuapp.com/swagger-ui.html#
 
 ##### OBS : Utilize o login abaixo para pode criar o token e assim tiver acesso as API's:
 email : `jonatas0072@gmail.com`
