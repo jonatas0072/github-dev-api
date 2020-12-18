@@ -9,7 +9,7 @@ email : `jonatas0072@gmail.com`
 senha : `1234567890`
 role : `ADMIN` 
 
-[![Author](http://img.shields.io/badge/Arthur%20-Jonatas%20Macedo-green)](https://github.com/jonatas0072/github-api/blob/master/LICENSE)
+![Author](http://img.shields.io/badge/Author%20-Jonatas%20Macedo-green)
 
 #  Projeto
 > O projeto consite em consumir as API's do github e gerar um ranking dos mesmos.
